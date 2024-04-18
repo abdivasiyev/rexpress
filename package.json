@@ -1,0 +1,19 @@
+{
+  "name": "rexpress",
+  "version": "0.0.0",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript -w",
+    "dev": "node ./src/"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/core": "1.2.0",
+    "rescript": "11.0.1"
+  }
+}
